@@ -4,13 +4,14 @@ go 1.18
 
 require (
 	github.com/googleapis/api-linter v1.35.1
-	github.com/grpc-ecosystem/grpc-gateway/v2 v2.11.3
+	github.com/grpc-ecosystem/grpc-gateway/v2 v2.13.0
 	google.golang.org/grpc/cmd/protoc-gen-go-grpc v1.2.0
 	google.golang.org/protobuf v1.28.1
 )
 
 require (
 	bitbucket.org/creachadair/stringset v0.0.10 // indirect
+	cloud.google.com/go/longrunning v0.1.1 // indirect
 	github.com/bmatcuk/doublestar/v2 v2.0.4 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/gertd/go-pluralize v0.1.7 // indirect
@@ -21,11 +22,11 @@ require (
 	github.com/olekukonko/tablewriter v0.0.5 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/stoewer/go-strcase v1.2.0 // indirect
-	golang.org/x/net v0.0.0-20220624214902-1bab6f366d9e // indirect
-	golang.org/x/sys v0.0.0-20220610221304-9f5ed59c137d // indirect
-	golang.org/x/text v0.3.7 // indirect
-	google.golang.org/genproto v0.0.0-20220829175752-36a9c930ecbf // indirect
-	google.golang.org/grpc v1.48.0 // indirect
+	golang.org/x/net v0.1.0 // indirect
+	golang.org/x/sys v0.1.0 // indirect
+	golang.org/x/text v0.4.0 // indirect
+	google.golang.org/genproto v0.0.0-20221027153422-115e99e71e1c // indirect
+	google.golang.org/grpc v1.50.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
